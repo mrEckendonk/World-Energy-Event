@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Playfair+Display&family=Poppins:wght@100;400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- <link rel="stylesheet" href="debug.css" /> -->
+  <title>Electronic Event 2024</title>
+</head>
+
+<body>
+ <div class="globe" id="globe">
+  <header>
+    
+    <!-- Top Menu Mobile-->
+    <nav>
+      <div class="top-bar-icon">
+        <a href="#"><img id="hamburger" class="openMenu" src="assets/images/icon-hamburger.svg" alt="Menu Mobile" /></a>
+      </div>
+      <div class="menu mobile-only hidden">
+        <img id="mobileMenu">
+        <div class="close_btn">
+          <img src="assets/images/icon-cancel.svg" alt="menu cancel" />
+          <div class="top-bar">
+            <div class="top-bar-left">
+              <ul class="mobile-only">
+                <li><a href="#">Language</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Speakers</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+
+          </div>
+          <!-- Top Menu Desktop-->
+    </nav>
+  </header>
+  <!-- Main Welcome Text-->
+  <section>
+    <div>
+      <span id="greeting" class="greeting">"Hello! Energy Event!</span>
+      <h1 class="event-name">ENERGY EVENT<br>
+        GLOBALLY TRANSMITTED<br>
+
+        2024</h1>
+      <p class="event-description">
+        World event about Renewable Energy, Solar Energy, Clean Energy, with fantastic speakers and workshops. Many new
+        technologies are coming to the world, and we are going to discuss how to use them. Best of all, we are going to
+        be the best event in the world on these technologies.
+      </p>
+    </div>
+    <div class="date-event">
+      <h2 class="date">2024.07.12(FRI) ~ 13(SAT)</h2>
+      <p class="place">
+        @ Oscar Niemeyer Hall, Conference room, Goiânia<br>
+      </p>
+    </div>
+
+  </section>
+</div>
+  <!-- Main Programma 5 Cards-->
+  <section class="program">
+    <header>
+      <h3>Main Program</h3>
+      <div class="space"></div>
+    </header>
+
+    <ul class="cards" id="cards-js">
+    </ul>
+    
+      <a id="a" class="desktop-only" href="#">#</a>
+    <button type="button" class="btn-join-us">Join Us Today
+         </button>
+
+
+    
+  </section>
+  <!-- Featured Speakers 6 -->
+  <section class="cont-persons" >
+    <h2>Featured Speakers</h2>
+    <ul class="persons" id="persons-first"></ul>
+    <ul class="persons less" id="persons-more"></ul>  
+    <div id="more-container" class="mobile">
+      <button type="button" id="myBtn" id="more-bttn">
+        <span id="more-txt">MORE</span
+        ><span
+          ><img
+            src="assets/images/arrow-down.png"
+            alt="arrowhead"
+            width="30"
+            id="arrowhead"
+        /></span>
+      </button>
+    </div>
+    
+
+  </section>
+  <!-- Partners (only Desktop)-->
+  <section>
+
+  </section>
+
+  <!-- Footer and Copyrights-->
+  <footer>
+
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
