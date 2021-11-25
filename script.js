@@ -2,7 +2,6 @@ const menuHamburgerBtn = document.querySelector('#hamburger');
 const closeBtn = document.querySelector('.close_btn');
 const mobileMenu = document.querySelector('.menu');
 
-
 function displayMenu() {
   mobileMenu.classList.toggle('hidden');
   menuHamburgerBtn.classList.toggle('hidden');
@@ -151,7 +150,7 @@ function showSpeakers() {
 
 moreBttn.addEventListener('click', showSpeakers);
 
-const allSpeakers  = personsFirst.concat(personsLast);
+const allSpeakers = personsFirst.concat(personsLast);
 for (let m = 0; m < allSpeakers.length; m += 1) {
   document.getElementById('persons-all').innerHTML += `
   <li class="person-card">
@@ -168,4 +167,3 @@ for (let m = 0; m < allSpeakers.length; m += 1) {
       </li>
       `;
 }
-

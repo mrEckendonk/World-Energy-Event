@@ -13,6 +13,7 @@ p {
   margin-block-end: 1em;
   margin-inline-start: 0;
   margin-inline-end: 0;
+
   /* background-color: transparent; */
 }
 
@@ -403,9 +404,9 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap:18%;
-  margin-top: 8%; 
-  margin-left: 20px; 
+  gap: 18%;
+  margin-top: 8%;
+  margin-left: 20px;
   margin-right: 20px;
   transition: 0.3s;
 }
@@ -413,7 +414,7 @@ p {
 .partners img {
   width: 20%;
   height: auto;
-  margin-bottom: 5%; 
+  margin-bottom: 5%;
   filter: brightness(0.1);
   gap: 30px;
   transition: 0.4s;
@@ -426,7 +427,7 @@ p {
 .footer-cnt {
   background-color: #f7f7f7;
   display: flex;
-  justify-content: center ;
+  justify-content: center;
   align-items: center;
   font-family: 'Lato', sans-serif;
   font-size: 2.5vw;
@@ -492,7 +493,7 @@ p {
   .cards {
     display: flex;
     justify-self: center;
-    width: 75%;   
+    width: 75%;
   }
 
   .cards-event {
@@ -519,7 +520,6 @@ p {
     margin-bottom: 6%;
   }
 
-
   .cont-persons-desktop {
     display: flex;
     flex-direction: column;
@@ -545,7 +545,7 @@ p {
     border-bottom: 1px solid #ec5242;
   }
 
-  .person-card{
+  .person-card {
     width: 50%;
   }
 
@@ -573,9 +573,10 @@ p {
 
   .person-title {
     font-size: 1.2vw;
-    margin-top : 5%;
+    margin-top: 5%;
     margin-left: 15px;
   }
+
   .person-work {
     font-size: 1.4vw;
     margin-top: -3%;
@@ -587,7 +588,7 @@ p {
     text-align: center;
     padding-left: 18%;
   }
-  
+
   .partners h2::before {
     content: "";
     position: absolute;
@@ -596,4 +597,5 @@ p {
     bottom: 0;
     left: 55%;
     border-bottom: 1px solid #ec5242;
+  }
 }
