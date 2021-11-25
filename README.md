@@ -10,7 +10,7 @@ This is the copy for the World Energy Event project based on the original idea f
 ![Desktop_Layout](assets/images/desktop.png)
 
 - Mobile Layout
-![Mobile_Layout](assets/imags/mobile.png)
+![Mobile_Layout](assets/images/mobile.png)
 
 - The into with loom video link
 
