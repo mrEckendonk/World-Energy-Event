@@ -479,6 +479,72 @@ p {
     display: none;
   }
 
+  .top-bar {
+    
+    background-color:#272a31;
+    height: 40px;
+    margin-top: -65px;
+  }
+
+  .desktop-menu {
+    display: flex;
+    background-color: #272a31;
+    /* height: 45px; */
+  }
+
+  .sm-menu {
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+    padding-top: 15px;
+    gap:15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 50px;
+    list-style: none;
+    font-family: 'lato', sans-serif;
+    color: #fff;   
+  }
+
+  .big-menu {
+    display: flex;
+    position: relative;
+    align-items: left;
+    width: 40%;
+    margin-top: 0;
+    background-color: #f7f7f7;
+  }
+
+  .big-menu-right {
+    display: flex;
+    position: relative;
+    align-items: right;
+    width: 60%;
+    margin-top: 0;
+    background-color: #f7f7f7;
+  }
+
+  .menu-logo {
+    display:flex;
+    justify-content: left;
+    height: 50px;
+  }
+
+  .event-description {
+    font-size: 1.5vw;
+    width: 65%;
+  }
+
+  .date {
+    font-size: 3.5vw;
+  }
+
+  .place {
+    font-size: 2.2vw;
+  }
+
   .program {
     display: flex;
     justify-items: center;
@@ -519,6 +585,28 @@ p {
     margin-top: 6%;
     margin-bottom: 6%;
   }
+
+  .btn-join-us {
+    display: none !important;
+  }
+
+  .cards-link {
+    font-family: 'Lato', sans-serif;
+    font-size : 1.5vw;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    width: 35%;
+  }
+
+  .cards-link a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+
 
   .cont-persons-desktop {
     display: flex;
