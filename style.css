@@ -214,7 +214,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
-  padding-top: 5%;
+  /* padding-top: 5%; */
 }
 
 .btn-join-us {
@@ -462,6 +462,37 @@ p {
   display: none;
 }
 
+.contact-event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5vw;
+  flex-direction: column;
+  background-color: #f7f7f7;
+}
+
+.contact-event_title {
+  font-family: 'Lato', sans-serif;
+}
+
+.contact-event_mail @ {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.logo-info h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 3vw;
+  align-items: center;
+  justify-content: center;
+ text-align: center;
+  padding-bottom: 3%;
+}
+
 @media (min-width: 768px) {
   .desktop {
     display: block;
@@ -480,11 +511,9 @@ p {
   }
 
   .top-bar {
-    position: -webkit-sticky;
-    position: sticky;
     background-color:#272a31;
     height: 40px;
-    margin-top: -95px;
+    /* margin-top: -95px; */
   }
 
   .desktop-menu {
@@ -512,9 +541,30 @@ p {
   .big-menu {
     display: flex;
     justify-content: space-between;
-    /* position: relative; */
-    align-items: left;
-    width: 100%;
+    width: 50%;
+  }
+
+  .big-menu li {
+    list-style-type: none;
+    font-family: 'lato', sans-serif;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+  }
+
+  .big-menu a:hover {
+    color: #ec5242;
+
+  }
+  .bottom-bar img {
+    width: 200px;
+  }
+
+  .bottom-bar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 0;
     background-color: #f7f7f7;
   }
@@ -527,11 +577,18 @@ p {
     width: 60%;
     margin-top: 0;
     margin-left: auto;
+    color: #5d5d5d;
     background-color: #f7f7f7;
   }
 
-  .big-menu_right a {
+  .big-menu li {
     text-decoration: none;
+    color: #5d5d5d;
+
+  }
+  .big-menu a {
+    text-decoration: none;
+    color: #5d5d5d
   }
 
   .contact {
@@ -540,7 +597,7 @@ p {
     color: #ec5242;
     padding-left: 35px;
     padding-right: 35px;
-    height: 50%;
+    height: 45px;
     border: solid 4px #ec5242;
   }
 
