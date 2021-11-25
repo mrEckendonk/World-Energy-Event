@@ -16,101 +16,106 @@
 </head>
 
 <body>
- <div class="globe" id="globe">
-  <header>
-    
-    <!-- Top Menu Mobile-->
-    <nav>
-      <div class="top-bar-icon">
-        <a href="#"><img id="hamburger" class="openMenu" src="assets/images/icon-hamburger.svg" alt="Menu Mobile" /></a>
-      </div>
-      <div class="menu mobile-only hidden">
-        <img id="mobileMenu">
-        <div class="close_btn">
-          <img src="assets/images/icon-cancel.svg" alt="menu cancel" />
-          <div class="top-bar">
-            <div class="top-bar-left">
-              <ul class="mobile-only">
-                <li><a href="#">Language</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Speakers</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
+  <div class="globe" id="globe">
+    <header>
+      <!-- Top Menu Mobile-->
+      <nav>
+        <div class="top-bar-icon">
+          <a href="#"><img id="hamburger" class="openMenu" src="assets/images/icon-hamburger.svg"
+              alt="Menu Mobile" /></a>
+        </div>
+        <div class="menu mobile-only hidden">
+          <img id="mobileMenu">
+          <div class="close_btn">
+            <img src="assets/images/icon-cancel.svg" alt="menu cancel" />
+            <div class="top-bar">
+              <div class="top-bar-left">
+                <ul class="mobile-only">
+                  <li><a href="index.html">Language</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="#">Events</a></li>
+                  <li><a href="#">Speakers</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
             </div>
-
-          </div>
-          <!-- Top Menu Desktop-->
-    </nav>
-  </header>
-  <!-- Main Welcome Text-->
-  <section>
-    <div>
-      <span id="greeting" class="greeting">"Hello! Energy Event!</span>
-      <h1 class="event-name">ENERGY EVENT<br>
-        GLOBALLY TRANSMITTED<br>
-
-        2024</h1>
-      <p class="event-description">
-        World event about Renewable Energy, Solar Energy, Clean Energy, with fantastic speakers and workshops. Many new
-        technologies are coming to the world, and we are going to discuss how to use them. Best of all, we are going to
-        be the best event in the world on these technologies.
-      </p>
-    </div>
-    <div class="date-event">
-      <h2 class="date">2024.07.12(FRI) ~ 13(SAT)</h2>
-      <p class="place">
-        @ Oscar Niemeyer Hall, Conference room, Goiânia<br>
-      </p>
-    </div>
-
-  </section>
-</div>
+            <!-- Top Menu Desktop-->
+      </nav>
+    </header>
+    <!-- Main Welcome Text-->
+    <section>
+      <div>
+        <span id="greeting" class="greeting">"Hello! Energy Event!</span>
+        <h1 class="event-name">ENERGY EVENT<br>
+          GLOBALLY TRANSMITTED<br>
+          2024</h1>
+        <p class="event-description">
+          World event about Renewable Energy, Solar Energy, Clean Energy, with fantastic speakers and workshops. Many
+          new
+          technologies are coming to the world, and we are going to discuss how to use them. Best of all, we are going
+          to
+          be the best event in the world on these technologies.
+        </p>
+      </div>
+      <div class="date-event">
+        <h2 class="date">2024.07.12(FRI) ~ 13(SAT)</h2>
+        <p class="place">
+          @ Oscar Niemeyer Hall, Conference room, Goiânia<br>
+        </p>
+      </div>
+    </section>
+  </div>
   <!-- Main Programma 5 Cards-->
   <section class="program">
     <header>
       <h3>Main Program</h3>
       <div class="space"></div>
     </header>
-
     <ul class="cards" id="cards-js">
     </ul>
-    
-      <a id="a" class="desktop-only" href="#">#</a>
+    <a id="a" class="desktop-only" href="#">#</a>
     <button type="button" class="btn-join-us">Join Us Today
-         </button>
-
-
-    
+    </button>
   </section>
-  <!-- Featured Speakers 6 -->
-  <section class="cont-persons" >
+  <!-- Featured Speakers 6 Mobile Only-->
+  <section class="cont-persons desktop-none">
     <h2>Featured Speakers</h2>
     <ul class="persons" id="persons-first"></ul>
-    <ul class="persons less" id="persons-more"></ul>  
-    <div id="more-container" class="mobile">
-      <button type="button" id="myBtn" id="more-bttn">
-        <span id="more-txt">MORE</span
-        ><span
-          ><img
-            src="assets/images/arrow-down.png"
-            alt="arrowhead"
-            width="30"
-            id="arrowhead"
-        /></span>
+    <ul class="persons less" id="persons-more"></ul>
+    <div id="more-cnt" class="mobile">
+      <button type="button" class="myBtn" id="more-bttn">
+        <span id="more-txt">MORE</span><span><img src="assets/images/arrow-down.png" alt="arrowhead" width="30"
+            id="arrowhead" /></span>
       </button>
     </div>
-    
-
   </section>
-  <!-- Partners (only Desktop)-->
-  <section>
-
+    <!-- Featured Speakers 6 Desktop Only-->
+    <section class="cont-persons-desktop mobile-none">
+      <h2>Featured Speakers</h2>
+      <ul class="persons" id="persons-all"></ul>
+      
+    </section>
+  <!-- Partners -->
+  <section class="partners">
+    <h2>Partners</h2>
+    <div class="partner-logos">
+      <img src="assets/images/logo1.png" alt="logo" />
+      <img src="assets/images/logo2.png" alt="logo2" />
+      <img src="assets/images/logo3.png" alt="logo3" />
+      <img src="assets/images/logo4.png" alt="logo4" />
+      <img src="assets/images/logo5.png" alt="logo5" />
+    </div>
   </section>
 
   <!-- Footer and Copyrights-->
-  <footer>
-
+  <footer class="footer-cnt">
+    <div class="footer-logo">
+      <img src="assets/images/advanced-energy-vector-logo.png" alt="logo" width="300px" />
+    </div>
+    <div class="rights">
+      © 2024 Creative Energy Event. <br />
+      Some Rights Reserved.
+    </div>
   </footer>
   <script src="script.js"></script>
 </body>
