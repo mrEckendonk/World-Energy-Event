@@ -214,6 +214,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
+
   /* padding-top: 5%; */
 }
 
@@ -479,7 +480,7 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
-.contact-event_mail @ {
+.contact-event_mail a {
   font-family: 'Lato', sans-serif;
   text-align: center;
 }
@@ -489,7 +490,7 @@ p {
   font-size: 3vw;
   align-items: center;
   justify-content: center;
- text-align: center;
+  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -511,14 +512,16 @@ p {
   }
 
   .top-bar {
-    background-color:#272a31;
+    background-color: #272a31;
     height: 40px;
+
     /* margin-top: -95px; */
   }
 
   .desktop-menu {
     display: flex;
     background-color: #272a31;
+
     /* height: 45px; */
   }
 
@@ -529,13 +532,18 @@ p {
     align-content: center;
     justify-content: flex-end;
     padding-top: 15px;
-    gap:15px;
-    margin-top: 0px;
+    gap: 15px;
+    margin-top: 0;
     margin-bottom: 0;
     margin-right: 50px;
     list-style: none;
     font-family: 'lato', sans-serif;
-    color: #fff;   
+    color: #fff;
+  }
+
+  .cards-link a {
+    color: #fff;
+    text-decoration: none;
   }
 
   .big-menu {
@@ -550,12 +558,19 @@ p {
     font-size: 1.5vw;
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: #5d5d5d;
+  }
+
+  .big-menu a {
+    text-decoration: none;
+    color: #5d5d5d;
   }
 
   .big-menu a:hover {
     color: #ec5242;
-
   }
+
   .bottom-bar img {
     width: 200px;
   }
@@ -572,23 +587,12 @@ p {
   .big-menu_right {
     display: flex;
     position: relative;
-    align-items: right;
     justify-content: flex-end;
     width: 60%;
     margin-top: 0;
     margin-left: auto;
     color: #5d5d5d;
     background-color: #f7f7f7;
-  }
-
-  .big-menu li {
-    text-decoration: none;
-    color: #5d5d5d;
-
-  }
-  .big-menu a {
-    text-decoration: none;
-    color: #5d5d5d
   }
 
   .contact {
@@ -608,7 +612,7 @@ p {
   }
 
   .menu-logo {
-    display:flex;
+    display: flex;
     justify-content: left;
     height: 50px;
   }
@@ -673,7 +677,7 @@ p {
 
   .cards-link {
     font-family: 'Lato', sans-serif;
-    font-size : 1.5vw;
+    font-size: 1.5vw;
     display: flex;
     color: #fff;
     justify-content: center;
@@ -681,13 +685,6 @@ p {
     margin-top: 25px;
     width: 35%;
   }
-
-  .cards-link a {
-    color: #fff;
-    text-decoration: none;
-  }
-
-
 
   .cont-persons-desktop {
     display: flex;
