@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name : World Energy Event 
+# Project Name : World Energy Event ♻️
 
 This is the copy for the World Energy Event project based on the original idea from Cindy Shin
 
@@ -10,6 +10,7 @@ This is the copy for the World Energy Event project based on the original idea f
 ![Desktop_Layout](assets/images/desktop.png)
 
 - Mobile Layout
+
 ![Mobile_Layout](assets/images/mobile.png)
 
 - The into with loom video link
