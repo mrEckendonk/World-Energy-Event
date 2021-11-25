@@ -480,10 +480,11 @@ p {
   }
 
   .top-bar {
-    
+    position: -webkit-sticky;
+    position: sticky;
     background-color:#272a31;
     height: 40px;
-    margin-top: -65px;
+    margin-top: -95px;
   }
 
   .desktop-menu {
@@ -500,7 +501,7 @@ p {
     justify-content: flex-end;
     padding-top: 15px;
     gap:15px;
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 0;
     margin-right: 50px;
     list-style: none;
@@ -510,20 +511,43 @@ p {
 
   .big-menu {
     display: flex;
-    position: relative;
+    justify-content: space-between;
+    /* position: relative; */
     align-items: left;
-    width: 40%;
+    width: 100%;
     margin-top: 0;
     background-color: #f7f7f7;
   }
 
-  .big-menu-right {
+  .big-menu_right {
     display: flex;
     position: relative;
     align-items: right;
+    justify-content: flex-end;
     width: 60%;
     margin-top: 0;
+    margin-left: auto;
     background-color: #f7f7f7;
+  }
+
+  .big-menu_right a {
+    text-decoration: none;
+  }
+
+  .contact {
+    font-family: Lato, sans-serif;
+    font-size: 1vw;
+    color: #ec5242;
+    padding-left: 35px;
+    padding-right: 35px;
+    height: 50%;
+    border: solid 4px #ec5242;
+  }
+
+  .contact:hover {
+    background-color: #ec5242;
+    border: solid 4px #ec5242;
+    color: #fff;
   }
 
   .menu-logo {
@@ -533,7 +557,7 @@ p {
   }
 
   .event-description {
-    font-size: 1.5vw;
+    font-size: 2vw;
     width: 65%;
   }
 
