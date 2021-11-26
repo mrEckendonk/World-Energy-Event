@@ -24,7 +24,7 @@ p {
 
 .top-bar-icon {
   margin-left: 6%;
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 
 .mobile-only {
@@ -416,7 +416,7 @@ p {
   width: 15%;
   height: auto;
   margin-bottom: 5%;
-  filter: brightness(0.1);
+  filter: brightness(0) invert(0.7);
   gap: 15px;
   transition: 0.4s;
 }
