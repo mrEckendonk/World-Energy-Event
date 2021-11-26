@@ -1,6 +1,6 @@
 @font-face {
   font-family: Cocogoose;
-  src: url(assets/fonts/Cocogoose-Pro-Regular-Trial.ttf);
+  src: url(assets/fonts/Cocogoose-Pro-Italic-trial.ttf);
 }
 
 body {
@@ -378,6 +378,7 @@ p {
 
 .partners {
   background-color: #272a31;
+  m
 }
 
 .partners h2 {
@@ -386,7 +387,7 @@ p {
   text-align: center;
   position: relative;
   padding-top: 5%;
-  font-size: 5vw;
+  font-size: 3vw;
   margin-bottom: 3%;
 }
 
@@ -396,7 +397,7 @@ p {
   width: 10%;
   height: 1px;
   bottom: 0;
-  left: 44%;
+  left: 45%;
   border-bottom: 1px solid #ec5242;
 }
 
@@ -405,19 +406,19 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 18%;
-  margin-top: 8%;
+  gap: 5%;
+  margin-top: 3%;
   margin-left: 20px;
   margin-right: 20px;
   transition: 0.3s;
 }
 
 .partners img {
-  width: 20%;
+  width: 15%;
   height: auto;
   margin-bottom: 5%;
   filter: brightness(0.1);
-  gap: 30px;
+  gap: 15px;
   transition: 0.4s;
 }
 
@@ -568,8 +569,8 @@ p {
   justify-content: center;
   flex-direction: column;
   padding-bottom: 50px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15px;
+  margin-right:15px;
   margin-bottom: 5%;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -843,7 +844,7 @@ p {
   }
 
   .partners h2 {
-    font-size: 4vw;
+    font-size: 3.3vw;
     text-align: center;
   }
 
