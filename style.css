@@ -1,6 +1,6 @@
 @font-face {
   font-family: Cocogoose;
-  src: url(assets/fonts/Cocogoose-Pro-Italic-trial.ttf);
+  src: url(assets/fonts/Cocogoose-Pro-Regular-Trial.ttf);
 }
 
 body {
@@ -196,7 +196,7 @@ p {
 }
 
 .date {
-  font-family: Cocogoose, sans-serif;
+  font-family: 'Cocogoose', sans-serif;
   color: #5d5d5d;
   font-size: 5.5vw;
   margin-bottom: 3%;
@@ -610,15 +610,11 @@ p {
   .top-bar {
     background-color: #272a31;
     height: 40px;
-
-    /* margin-top: -95px; */
   }
 
   .desktop-menu {
     display: flex;
     background-color: #272a31;
-
-    /* height: 45px; */
   }
 
   .sm-menu {
