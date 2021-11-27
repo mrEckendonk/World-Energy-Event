@@ -175,7 +175,8 @@ p {
   color: rgba(300, 35, 12, 0.8);
   font-weight: 900;
   margin-left: 6%;
-  font-size: 7vw;
+  text-align: center;
+  font-size: 5.5vw;
 }
 
 .event-description {
@@ -184,6 +185,7 @@ p {
   margin-left: 5%;
   margin-right: 5%;
   font-size: 3vw;
+  text-align: center;
   padding: 5%;
   line-height: 150%;
   background-color: #f7f7f7;
@@ -213,8 +215,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
-
-  /* padding-top: 5%; */
 }
 
 .btn-join-us {
