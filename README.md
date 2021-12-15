@@ -28,7 +28,7 @@ Additional description about the project and its features.
 - Git & GitHub
 ## Live Demo link
 
-[Live Demo Link](https://eckybrazzz.github.io/World-Energy-Event/)
+[Live Demo Link](https://mrEckendonk.github.io/World-Energy-Event/)
 
 
 ## Getting Started
@@ -48,7 +48,7 @@ To get a working local copy up and running follow these simple steps
 
 
 ```
-$ git clone https://github.com/Eckybrazzz/Portfolio.git
+$ git clone https://github.com/mrEckendonk/Portfolio.git
 ```
 - Finally, run the next command in the terminal to see the web app in your local browser, or also, you can use Live Server in Visual Studio Code.
 ```
@@ -66,7 +66,7 @@ N/A
 
 👤 **Author**
 
-- GitHub: [@Eckybrazzz](https://github.com/Eckybrazzz)
+- GitHub: [@Eckybrazzz](https://github.com/mrEckendonk)
 - Twitter: [@twitterhandle](https://twitter.com/mike_eckendonk)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mike-van-eckendonk)
 
@@ -74,7 +74,7 @@ N/A
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Eckybrazzz/Portfolio/issues).
+Feel free to check the [issues page](https://github.com/mrEckendonk/Portfolio/issues).
 
 ## Show your support
 
