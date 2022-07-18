@@ -1,4 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fa9ddac6-7ed7-4ce5-b24e-20545ad72db4/deploy-status)](https://app.netlify.com/sites/world-energy-event/deploys)
+![Size](https://github-size-badge.herokuapp.com/mrEckendonk/World-Energy-Event.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 # Project Name : World Energy Event ♻️
 
@@ -28,7 +31,11 @@ Additional description about the project and its features.
 - Git & GitHub
 ## Live Demo link
 
-[Live Demo Link](https://mrEckendonk.github.io/World-Energy-Event/)
+
+[Live Demo Link Netlify](https://world-energy-event.netlify.app/)
+
+[Live Demo Link gh-pages](https://mrEckendonk.github.io/World-Energy-Event/)
+
 
 
 ## Getting Started
