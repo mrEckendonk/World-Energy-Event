@@ -31,11 +31,9 @@ Additional description about the project and its features.
 - Git & GitHub
 ## Live Demo link
 
+[Live Link Xoommit](http://energy-event.xoommit.com/)
 
 [Live Demo Link Netlify](https://world-energy-event.netlify.app/)
-
-[Live Demo Link gh-pages](https://mrEckendonk.github.io/World-Energy-Event/)
-
 
 
 ## Getting Started

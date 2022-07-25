@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@100;400&display=swap');
+
 @font-face {
   font-family: Cocogoose;
   src: url(assets/fonts/Cocogoose-Pro-Italic-trial.ttf);
@@ -5,6 +7,8 @@
 
 body {
   margin: 0;
+  font-family: 'Lato', sans-serif;
+  color: #5d5d5d;
 }
 
 p {
@@ -35,7 +39,6 @@ p {
 }
 
 .mobile-only li {
-  font-family: 'Lato', sans-serif;
   font-size: 8vw;
   font-weight: 900;
   line-height: 250%;
@@ -58,9 +61,7 @@ p {
 .program {
   display: flex;
   flex-direction: column;
-  justify-items: center;
   margin-left: 0;
-  font-family: 'Lato', monospace;
   height: 100%;
   padding: 30px 0 20px;
   background: url("assets/images/layer4.png");
@@ -70,7 +71,6 @@ p {
 
 .program h3 {
   color: white;
-  font-family: 'Lato', sans-serif;
   text-align: center;
   font-size: 5vw;
   position: relative;
@@ -96,7 +96,6 @@ p {
 }
 
 .cards a {
-  font-family: 'Lato', monospace;
   font-size: 1.2em;
   list-style-type: none;
   color: #ec5242;
@@ -117,7 +116,6 @@ p {
   color: #fff;
   background-color: rgb(95, 95, 95, 0.5);
   list-style: none;
-  font-family: 'Lato', sans-serif;
   min-height: 100px;
   margin-bottom: 2%;
   border: solid 2px rgb(95, 95, 95, 0.5);
@@ -143,7 +141,6 @@ p {
 
 .cards-type {
   align-self: center;
-  font-family: 'Lato', sans-serif;
   font-weight: 900;
   color: #ec5242;
   font-size: 3vw;
@@ -162,7 +159,6 @@ p {
 }
 
 .greeting {
-  font-family: 'lato', sans-serif;
   color: #ec5242;
   margin-left: 6%;
   font-size: 5vw;
@@ -178,7 +174,6 @@ p {
 }
 
 .event-description {
-  font-family: 'lato', sans-serif;
   border: solid 3px #fff;
   margin-left: 5%;
   margin-right: 5%;
@@ -196,14 +191,11 @@ p {
 
 .date {
   font-family: 'Cocogoose', sans-serif;
-  color: #5d5d5d;
   font-size: 5.5vw;
   margin-bottom: 3%;
 }
 
 .place {
-  font-family: 'Lato', sans-serif;
-  color: #5d5d5d;
   font-size: 3.5vw;
   margin-top: 0;
 }
@@ -222,7 +214,6 @@ p {
   border: 1px solid #ec5242;
   box-shadow: none;
   color: #fff;
-  font-family: "Lato", sans-serif;
   font-size: 4vw;
   padding: 8%;
   align-self: center;
@@ -246,7 +237,6 @@ p {
 }
 
 .cont-persons h2 {
-  font-family: "Lato", sans-serif;
   font-size: 5vw;
   position: relative;
   padding-bottom: 3%;
@@ -273,7 +263,6 @@ p {
 .persons li {
   list-style-type: none;
   display: flex;
-  font-family: 'Lato', sans-serif;
 }
 
 .person-card {
@@ -308,7 +297,6 @@ p {
 }
 
 .person-title::before {
-  content: "";
   position: absolute;
   width: 8%;
   height: 1px;
@@ -347,7 +335,6 @@ p {
   justify-content: center;
   align-items: center;
   gap: 8%;
-  font-family: 'Lato', sans-serif;
   font-size: 3vw;
   align-self: center;
   height: 50%;
@@ -368,9 +355,7 @@ p {
 }
 
 #more-txt {
-  font-family: 'Lato', sans-serif;
   font-size: 3vw;
-  color: #5d5d5d;
 }
 
 .partners {
@@ -378,7 +363,6 @@ p {
 }
 
 .partners h2 {
-  font-family: 'Lato', sans-serif;
   color: #fff;
   text-align: center;
   position: relative;
@@ -401,9 +385,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   gap: 5%;
-  margin-top: 3%;
   margin-left: 20px;
   margin-right: 20px;
   transition: 0.3s;
@@ -432,31 +414,21 @@ p {
 }
 
 .footer-cnt {
-  background-color: #fff;
   display: flex;
-  justify-content: center;
   align-items: center;
-  font-family: 'Lato', sans-serif;
   font-size: 2.5vw;
   padding-top: 5%;
-  padding-bottom: 5%;
   height: 80px;
-  bottom: 0;
-  position: relative;
 }
 
 .footer-logo {
-  display: flex;
-  justify-content: center;
   margin-left: 12%;
-  align-items: center;
   padding-top: 5%;
   width: 50%;
   padding-bottom: 5%;
 }
 
 .rights {
-  display: flex;
   padding-top: 4%;
   padding-left: 2%;
   padding-right: 12%;
@@ -476,18 +448,12 @@ p {
   padding-top: 5%;
   padding-bottom: 5%;
   width: 100%;
-  font-family: 'Lato', sans-serif;
   font-size: 2.5vw;
   flex-direction: column;
   background-color: #f7f7f7;
 }
 
-.contact-event_title {
-  font-family: 'Lato', sans-serif;
-}
-
 .contact-event_mail a {
-  font-family: 'Lato', sans-serif;
   text-align: center;
 }
 
@@ -497,7 +463,6 @@ p {
 }
 
 .logo-info h2 {
-  font-family: 'Lato', sans-serif;
   font-size: 3vw;
   align-items: center;
   justify-content: center;
@@ -527,7 +492,6 @@ p {
 
 .logo-info p,
 .history p {
-  font-family: 'Lato', sans-serif;
   font-size: 1.5vw;
   text-align: center;
   padding-top: 3%;
@@ -548,7 +512,6 @@ p {
 }
 
 .history h2 {
-  font-family: 'Lato', sans-serif;
   font-size: 3vw;
   align-items: center;
   justify-content: center;
@@ -578,7 +541,6 @@ p {
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 5%;
-  font-family: 'Lato', sans-serif;
   font-weight: 700;
   text-align: center;
   color: #fff;
@@ -636,7 +598,6 @@ p {
     margin-bottom: 0;
     margin-right: 50px;
     list-style: none;
-    font-family: 'lato', sans-serif;
     color: #fff;
   }
 
@@ -653,18 +614,15 @@ p {
 
   .big-menu li {
     list-style-type: none;
-    font-family: 'lato', sans-serif;
     font-size: 1.6vw;
     padding-right: 15px;
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #5d5d5d;
   }
 
   .big-menu a {
     text-decoration: none;
-    color: #5d5d5d;
   }
 
   .big-menu a:hover {
@@ -691,12 +649,10 @@ p {
     width: 60%;
     margin-top: 0;
     margin-left: auto;
-    color: #5d5d5d;
     background-color: #f7f7f7;
   }
 
   .contact {
-    font-family: Lato, sans-serif;
     font-size: 1vw;
     color: #ec5242;
     padding-left: 35px;
@@ -732,7 +688,6 @@ p {
 
   .program {
     display: flex;
-    justify-items: center;
     align-items: center;
   }
 
@@ -776,7 +731,6 @@ p {
   }
 
   .cards-link {
-    font-family: 'Lato', sans-serif;
     font-size: 1.5vw;
     display: flex;
     color: #fff;
@@ -795,7 +749,6 @@ p {
   }
 
   .cont-persons-desktop h2 {
-    font-family: "Lato", sans-serif;
     font-size: 2.5vw;
     position: relative;
     padding-bottom: 1%;

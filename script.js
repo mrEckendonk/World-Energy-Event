@@ -55,15 +55,13 @@ for (let i = 0; i < agenda.length; i += 1) {
 const personsFirst = [
   {
     name: 'David Kolman',
-    title:
-      'Phd Electronics University Boston',
+    title: 'Phd Electronics University Boston',
     work: 'The speaker that has an personality to explain in detail new projects. Famous for his work in the forest.',
     photo: 'assets/images/speaker1.png',
   },
   {
     name: 'Aeson Jökull',
-    title:
-      'Denmark Nuclear Electronics Engineer',
+    title: 'Denmark Nuclear Electronics Engineer',
     work: 'Deactivated the platinum used in the process to generate Nuclear Energy, deplated plutonium in bullets used in the War.',
     photo: 'assets/images/speaker2.png',
   },
@@ -88,29 +86,25 @@ for (let j = 0; j < personsFirst.length; j += 1) {
 const personsLast = [
   {
     name: 'Dorian Cecily',
-    title:
-      'President of Shell Solar panels',
+    title: 'President of Shell Solar panels',
     work: 'A keen driver of continuous improvement activities sustained through behaviours to deliver beyond expectations.',
     photo: 'assets/images/speaker3.png',
   },
   {
     name: 'Nada Eadwulf',
-    title:
-      'CEO LM wind power plant',
+    title: 'CEO LM wind power plant',
     work: 'She is a self-starter who can manage projects from inception through execution and strive for excellence in everything she undertakes.',
     photo: 'assets/images/speaker4.png',
   },
   {
     name: 'Rita Kendal',
-    title:
-      'CTO of the hoover dam Las Vegas, USA',
+    title: 'CTO of the hoover dam Las Vegas, USA',
     work: 'Energy management and Renewable Energy expert blending and leveraging existing technologies with new innovations reducing energy footprint and supplementing energy.',
     photo: 'assets/images/speaker5.png',
   },
   {
     name: 'Nicolaas Wilbert',
-    title:
-      'CEO of oil and gas in Brazil',
+    title: 'CEO of oil and gas in Brazil',
     work: 'Founder and CEO of Olive Energy, an integrated junior E&P company focused on the development of complex oil and gas fields in South America.',
     photo: 'assets/images/speaker6.png',
   },
@@ -121,7 +115,7 @@ for (let k = 0; k < personsLast.length; k += 1) {
   li.classList.add('person-card');
   li.innerHTML += `
         <span class="person-photo"
-          ><img src="${personsLast[k].photo}" alt="user-icon" alt="user-icon" width="150" height="150"
+          ><img src="${personsLast[k].photo}" alt="user-icon" width="150" height="150"
         /></span>
         <div class="person-info">
           <h3 class="person-name">${personsLast[k].name}</h3>
